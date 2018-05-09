@@ -35,7 +35,7 @@ CREATE TABLE Couleur(
 CREATE TABLE Partie(
         numeroPartie    Int NOT NULL ,
         dateCreation    Date ,
-        initiatiateur   Int ,
+        initiateur   Int ,
         adversaire  Int ,
         vainqueur  Int ,
         suivant  Int ,
@@ -44,7 +44,7 @@ CREATE TABLE Partie(
         PRIMARY KEY (numeroPartie )
 )ENGINE=InnoDB;
 
-ALTER TABLE Partie ADD CONSTRAINT FK_Partie_initiatiateur FOREIGN KEY (initiatiateur) REFERENCES Joueur(numeroJoueur);
+ALTER TABLE Partie ADD CONSTRAINT FK_Partie_initiateur FOREIGN KEY (initiateur) REFERENCES Joueur(numeroJoueur);
 ALTER TABLE Partie ADD CONSTRAINT FK_Partie_adversaire FOREIGN KEY (adversaire) REFERENCES Joueur(numeroJoueur);
 ALTER TABLE Partie ADD CONSTRAINT FK_Partie_vainqueur FOREIGN KEY (vainqueur) REFERENCES Joueur(numeroJoueur);
 ALTER TABLE Partie ADD CONSTRAINT FK_Partie_suivant FOREIGN KEY (suivant) REFERENCES Joueur(numeroJoueur);
