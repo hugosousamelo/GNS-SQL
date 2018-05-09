@@ -60,14 +60,14 @@ INSERT INTO Joueur VALUES (5,"Cody","azerty");
 INSERT INTO Couleur VALUES (1,"Blanc");
 INSERT INTO Couleur VALUES (2,"Noir");
 
-INSERT INTO Partie VALUES (1,"01/05/18",5,2,2,null,1,2);
-INSERT INTO Partie VALUES (2,"01/05/18",5,2,5,null,2,1);
-INSERT INTO Partie VALUES (3,"01/05/18",5,null,null,5,1,null);
-INSERT INTO Partie VALUES (4,"01/05/18",2,null,null,null,2,1);
-INSERT INTO Partie VALUES (5,"02/05/18",5,1,null,1,1,2);
-INSERT INTO Partie VALUES (6,"02/05/18",5,1,null,5,1,2);
-INSERT INTO Partie VALUES (7,"02/05/18",1,null,null,null,null,2);
-INSERT INTO Partie VALUES (8,"02/05/18",1,null,null,null,null,2);
-INSERT INTO Partie VALUES (9,"03/05/18",5,2,null,2,1,2);
-INSERT INTO Partie VALUES (10,"03/05/18",2,1,2,null,2,1);
+INSERT INTO Partie VALUES (1,"18/05/01",5,2,2,null,1,2);
+INSERT INTO Partie VALUES (2,"18/05/01",5,2,5,null,2,1);
+INSERT INTO Partie VALUES (3,"18/05/01",5,null,null,5,1,null);
+INSERT INTO Partie VALUES (4,"18/05/01",2,null,null,null,2,1);
+INSERT INTO Partie VALUES (5,"18/05/02",5,1,null,1,1,2);
+INSERT INTO Partie VALUES (6,"18/05/02",5,1,null,5,1,2);
+INSERT INTO Partie VALUES (7,"18/05/02",1,null,null,null,null,2);
+INSERT INTO Partie VALUES (8,"18/05/02",1,null,null,null,null,2);
+INSERT INTO Partie VALUES (9,"18/05/03",5,2,null,2,1,2);
+INSERT INTO Partie VALUES (10,"18/05/03",2,1,2,null,2,1);
 
