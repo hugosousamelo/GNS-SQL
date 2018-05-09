@@ -1,11 +1,11 @@
-Select numero from Partie where vainqueur != null;
-Select dateCreation from Partie where vainqueur = null;
-Select * from Partie where adversaire = null;
-Select * from Partie where initiateur = 5 or adversaire = 5 and vainquer != null;
+Select numero from Partie where vainqueur is not null;
+Select dateCreation from Partie where vainqueur is null;
+Select * from Partie where adversaire is null;
+Select * from Partie where initiateur = 5 vainquer is not null;
 Select * from Partie where vainquer = 5;
-Select * from Partie where initiateur = 5 or adversaire = null;
+Select * from Partie where initiateur = 5 or adversaire is null;
 Select * from Partie where suivant = 5;
-Select * from Partie where initiateur != 5 and adversaire = null;
+Select * from Partie where initiateur != 5 and adversaire is null;
 Select * from Partie ;
 
 Select numeroPartie from Partie where vainqueur is not null;
